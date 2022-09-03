@@ -1,0 +1,12 @@
+#btn-back-to-top {
+  position: fixed;
+  /* bottom: 20px; */
+  right: 20px;
+  transition: 0.4s;
+  bottom: -20%;
+}
+
+/* Show scroll */
+#btn-back-to-top.show-btn-back-to-top {
+  bottom: 20px;
+}
