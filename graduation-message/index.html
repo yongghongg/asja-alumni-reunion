@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $('head').load('../header.html');
+        $('#nav').load('../nav.html');
+        $('#footer').load('../footer.html');
+      });
+    </script>
+    <title>アスジャ修了生同窓会とは</title>
+  </head>
+  <body>
+    <main class="flex-shrink-0">
+      <!-- Navigation-->
+      <header id="nav"></header>
+      <!-- Header-->
+      <div class="bg-dark py-5">
+        <div class="container p-3 text-center">
+          <h1 class="display-5 fw-bolder text-white mb-2">
+            修了生のメッセージ
+          </h1>
+        </div>
+      </div>
+    </main>
+    <div id="footer"></div>
+  </body>
+</html>
