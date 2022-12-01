@@ -1,0 +1,64 @@
+
+.message-title{
+  position: relative;
+  width: 90%;
+  padding: 10px 0;
+	margin: 50px auto 0;
+  font-size: 2rem;
+  text-align: center;
+  /* text-indent: 10em; */
+	letter-spacing: 0.2em;
+	color:#333333;
+	font-family:"Ryumin Bold KL";
+}
+.message-container{
+  width: 1000px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+.message-text-container{
+  width: 100%;
+  background-color: #ffffed;
+  margin: 1rem 0;
+  border-radius: 5px;
+  padding: 2rem;
+}
+.message-text-container p{
+  position: relative;
+	z-index: 1;
+	line-height: 36px;
+  font-size: 18px;
+  /* text-decoration-line: underline; */
+  
+	background: url(/img/bg-note03.png) bottom;
+	margin-bottom: 2rem;
+	
+	text-indent: 1em;
+}
+.entry-category { /*カードの年度タグ */
+	background-color: #c91042;
+	padding: 3px 5px;
+	color: #FFF;
+	font-size: 12px;
+	white-space: nowrap;
+  letter-spacing: 0;
+}
+.card-tag-country{
+	background-color: #239cd9;
+	margin-left: 10px;
+	padding: 3px 5px;
+	color: #FFF;
+	font-size: 12px;
+	max-width: 80px;
+	white-space: nowrap;
+  letter-spacing: 0;
+}
+.tag_flag img{
+	margin-left: 10px;
+	max-width: 37px;
+	vertical-align: -8px;
+}
+.message-uni{
+  margin-top: 10px;
+  font-size: 18px;
+}
