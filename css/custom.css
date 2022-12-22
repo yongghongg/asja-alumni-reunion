@@ -368,3 +368,7 @@ background: #2ECC71
 .list-timeline.list-timeline-green-bright .list-timeline-item:before {
 border-color: #2ECC71
 }
+
+.map-container{
+  height: 400px;
+}
